@@ -1,1 +1,32 @@
-My GitHub Page
+---
+layout: default
+title: Home
+---
+
+	<h1>Nothing to see here</h1>
+
+	<div>
+		<h2>Latest Posts</h2>
+
+		{% assign posts = site.posts %}
+		{% assign listing_limit = 5 %}
+		{% include post-listing.html %}
+	</div>
+	
+	
+	
+	<div>
+		<h3>Categories</h3>
+	
+		<ul>
+		{% for category in site.categories %}
+			<li><h4>{{ category[0] }} <i>{{ category[1].size }}</i></h4>
+	
+			<ul>
+			{% for post in category[1] %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+			</ul></li>
+		{% endfor %}
+		</ul>
+	</div>
