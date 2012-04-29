@@ -9,4 +9,4 @@
 	
 **/
 
-console.log(window);
+window.console && console.log(window);
