@@ -4,7 +4,7 @@ source: .
 destination: ./_site
 
 url: http://johnhunter.github.com/simple-cms-test/
-permalink: :year/:month/:day/:title
+permalink: ./:year/:month/:day/:title
 
 lsi: false
 paginate: 10
