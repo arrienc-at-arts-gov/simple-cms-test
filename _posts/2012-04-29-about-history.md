@@ -2,7 +2,7 @@
 layout: page
 title: History
 category: About
-permalink: /about/history
+permalink: ./about/history
 
 ---
 
