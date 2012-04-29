@@ -4,6 +4,7 @@ source: .
 destination: ./_site
 
 url: http://johnhunter.github.com/simple-cms-test/
+baseurl: ./
 permalink: /:year/:month/:day/:title
 
 lsi: false
